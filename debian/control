@@ -1,0 +1,15 @@
+Source: golang-pkac
+Section: devel
+Priority: extra
+Maintainer: Lance Cooper <lance@struktur.de>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-golang,
+               golang-go (>= 1.0)
+Standards-Version: 3.9.3
+
+Package: golang-pkac-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SPKAC/PKAC HTML keygen element decoding for Go
+ Provides support for decoding key data produced by the
+ HTML element.

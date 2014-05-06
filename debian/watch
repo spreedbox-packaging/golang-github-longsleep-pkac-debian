@@ -1,0 +1,3 @@
+version=3
+
+http://githubredir.debian.net/github/longsleep/pkac /github/longsleep/pkac/(\d).(\d).(\d+).tar.gz
