@@ -1,3 +1,3 @@
 version=3
-
-http://githubredir.debian.net/github/longsleep/pkac /github/longsleep/pkac/(\d).(\d).(\d+).tar.gz
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/golang-pkac-$1\.tar\.gz/ \
+  https://github.com/longsleep/pkac/tags .*/v?(\d\S*)\.tar\.gz
