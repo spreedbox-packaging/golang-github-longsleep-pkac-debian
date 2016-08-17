@@ -1,3 +1,9 @@
+golang-pkac (0.0.1-2) precise; urgency=low
+
+  * Update watch file to no longer use deprecated host.
+
+ -- Joachim Bauch <bauch@struktur.de>  Wed, 17 Aug 2016 16:21:15 +0200
+
 golang-pkac (0.0.1-1) precise; urgency=low
 
   * Initial release.
