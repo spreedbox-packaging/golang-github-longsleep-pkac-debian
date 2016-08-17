@@ -1,7 +1,10 @@
 Source: golang-pkac
 Section: devel
 Priority: extra
-Maintainer: Lance Cooper <lance@struktur.de>
+Maintainer: struktur AG <opensource@struktur.de>
+Uploaders:
+ Joachim Bauch <bauch@struktur.de>,
+ Simon Eisenmann <simon@struktur.de>
 Build-Depends: debhelper (>= 8.0.0),
                dh-golang,
                golang-go (>= 1.0)
